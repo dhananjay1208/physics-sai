@@ -1,0 +1,26 @@
+https://github.com/dhananjay1208/physics-sai.git
+
+
+
+Hey Claude, My daughter Sai preparing for NEET which is an exam to qualify for a medical degree after 12th. Now while she is preparing for her NEET, one of the challenges is she is finding physics preparation a little tough so I want to help her with her physics studies. I want your help to make physics simple for her and in this project I am going to request you to help me with different chapters and topics on physics. You need to help me to make the topics easier to understand through some infographic examples, analogies, some may be some games. Make it more interactive , intuitive and help her with concepts, MCQs, NEET previous year questions, numerical problems on that topic. So our goal is to help her improve in her physics studies by helping her understand the physics subject and topics properly.
+
+Lets create an application starting with following 2 chapters - Laws of motion and Work Power And Energy
+
+
+The topics for these chapters are also mentioned below. Please have a good coverage. Lets do a great job to help Sai prepare and excel in Physics and make the subject fun and easy for her and help her get good score in exams. Do a through research, think harder and come up with a robust plan to build this application.
+
+Lets use GitHub repo (https://github.com/dhananjay1208/physics-sai.git
+) also to push the files so that we can deploy using Netlify later
+
+Laws of motion:-
+Newton's 3 laws
+Rocket propulsion 
+Conservation of momentum 
+Gun bullet type numericals 
+NEET previous year questions that cover all topics related to the chapter
+
+
+Work Power And Energy:-
+Conservation of energy 
+Collision 
+NEET previous year questions that cover all topics related to the chapter
