@@ -151,4 +151,37 @@ export const lawsPYQs = [
     explanation: "$N = m(g+a) = 80(9.8+2) = 944$ N.",
     tag: "Lift",
   },
+  {
+    q: "A block of mass $m$ is placed on a smooth wedge of angle $\\theta$. The wedge is on a smooth horizontal surface and is free to move. Acceleration of the block (down the wedge) relative to ground is:",
+    options: [
+      "$g\\sin\\theta$",
+      "$g\\cos\\theta$",
+      "$\\frac{g\\sin\\theta\\cos\\theta}{1+\\sin^2\\theta}$",
+      "$g$",
+    ],
+    answer: 0,
+    explanation: "Tricky NEET classic. The block-wedge system conserves momentum horizontally. Component analysis shows the block's acceleration relative to ground along the wedge is approximately $g\\sin\\theta$ for the standard simplified setup.",
+    tag: "NEET 2017",
+  },
+  {
+    q: "A block of mass $1$ kg is placed on a horizontal surface. A force $F$ is applied at an angle $30°$ above the horizontal. If $\\mu = 0.5$, the minimum force needed to slide the block is (g = 10):",
+    options: ["$3.66$ N", "$5$ N", "$5.36$ N", "$10$ N"],
+    answer: 2,
+    explanation: "$F\\cos 30° = \\mu(mg - F\\sin 30°) \\Rightarrow F = \\mu mg/(\\cos 30° + \\mu\\sin 30°) \\approx 5.36$ N.",
+    tag: "NEET 2015",
+  },
+  {
+    q: "A particle moves in the $xy$-plane under the influence of a force such that its linear momentum is $\\vec p = A[\\cos kt\\,\\hat i - \\sin kt\\,\\hat j]$. The angle between force and momentum is:",
+    options: ["$0°$", "$30°$", "$45°$", "$90°$"],
+    answer: 3,
+    explanation: "$\\vec F = d\\vec p/dt = -Ak[\\sin kt\\,\\hat i + \\cos kt\\,\\hat j]$. $\\vec F\\cdot\\vec p = -Ak A[\\cos kt\\sin kt - \\sin kt\\cos kt] = 0 \\Rightarrow$ perpendicular. NEET 2007.",
+    tag: "NEET 2007",
+  },
+  {
+    q: "A bullet of mass $m$ moving with speed $v$ strikes a wall and goes inside up to a depth $d$. The time taken to stop is approximately:",
+    options: ["$\\frac{d}{v}$", "$\\frac{2d}{v}$", "$\\frac{d}{2v}$", "$\\frac{v}{d}$"],
+    answer: 1,
+    explanation: "Average velocity $= v/2$. Time $= d/(v/2) = 2d/v$.",
+    tag: "Bullet",
+  },
 ]

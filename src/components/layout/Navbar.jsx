@@ -19,6 +19,7 @@ export default function Navbar() {
           </NavLink>
           <NavLink to="/laws" className={({isActive}) => `${linkBase} ${isActive ? 'bg-brand-50 text-brand-700' : 'text-slate-600 hover:bg-slate-100'}`}>Laws of Motion</NavLink>
           <NavLink to="/wpe" className={({isActive}) => `${linkBase} ${isActive ? 'bg-brand-50 text-brand-700' : 'text-slate-600 hover:bg-slate-100'}`}>Work • Energy</NavLink>
+          <NavLink to="/motion-plane" className={({isActive}) => `${linkBase} ${isActive ? 'bg-brand-50 text-brand-700' : 'text-slate-600 hover:bg-slate-100'}`}>Motion in a Plane</NavLink>
         </nav>
       </div>
     </header>

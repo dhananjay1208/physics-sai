@@ -5,7 +5,10 @@ import { useLocalProgress } from '../../hooks/useLocalProgress.js'
 
 export default function ChapterLanding({ title, blurb, accent = 'brand', topics }) {
   const { getTopic } = useLocalProgress()
-  const accentBg = accent === 'amber' ? 'from-amber-500 to-orange-600' : 'from-brand-500 to-brand-700'
+  const accentBg =
+    accent === 'amber' ? 'from-amber-500 to-orange-600' :
+    accent === 'emerald' ? 'from-emerald-500 to-teal-700' :
+    'from-brand-500 to-brand-700'
 
   return (
     <div className="container-page">

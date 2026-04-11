@@ -139,4 +139,37 @@ export const wpePYQs = [
     explanation: "At top, $mg = mv^2/L ⇒ v = \\sqrt{gL}$.",
     tag: "Vertical circle",
   },
+  {
+    q: "A particle moves under a force $F(x) = -k x + a x^3$. The potential energy as a function of $x$ (with $U(0) = 0$) is:",
+    options: [
+      "$U = \\tfrac{1}{2} k x^2 - \\tfrac{1}{4} a x^4$",
+      "$U = -\\tfrac{1}{2} k x^2 + \\tfrac{1}{4} a x^4$",
+      "$U = k x^2 - a x^4$",
+      "$U = \\tfrac{1}{2} k x^2 + \\tfrac{1}{4} a x^4$",
+    ],
+    answer: 0,
+    explanation: "$F = -dU/dx \\Rightarrow U = \\int(k x - a x^3) dx = \\tfrac{1}{2} k x^2 - \\tfrac{1}{4} a x^4$. NEET 2018.",
+    tag: "NEET 2018",
+  },
+  {
+    q: "A bullet of mass $m$ moving with velocity $v$ hits a stationary block of mass $M$ on a frictionless surface and embeds. Fractional KE retained as KE of the system is:",
+    options: ["$m/(m+M)$", "$M/(m+M)$", "$m^2/(m+M)^2$", "$M^2/(m+M)^2$"],
+    answer: 0,
+    explanation: "$KE_f/KE_i = (m^2 v^2/(m+M))/(m v^2) = m/(m+M)$. Wait — recompute: $KE_f = \\tfrac{1}{2}(m+M) v_f^2$ with $v_f = m v/(m+M)$ → $= \\tfrac{1}{2}(m+M) m^2 v^2/(m+M)^2 = \\tfrac{1}{2} m^2 v^2/(m+M)$. $KE_i = \\tfrac{1}{2} m v^2$. Ratio $= m/(m+M)$. NEET 2017.",
+    tag: "NEET 2017",
+  },
+  {
+    q: "A body of mass 2 kg makes an elastic collision with another stationary body and continues to move in original direction with one-fourth its original speed. Mass of the stationary body is:",
+    options: ["$2$ kg", "$1.2$ kg", "$3$ kg", "$1.5$ kg"],
+    answer: 1,
+    explanation: "$v_1'/u_1 = (m_1 - m_2)/(m_1 + m_2) = 1/4 \\Rightarrow 4 m_1 - 4 m_2 = m_1 + m_2 \\Rightarrow 3 m_1 = 5 m_2 \\Rightarrow m_2 = 6/5 = 1.2$ kg. NEET 2019.",
+    tag: "NEET 2019",
+  },
+  {
+    q: "Power delivered by a force $\\vec F$ on a particle moving with velocity $\\vec v$ is:",
+    options: ["$|\\vec F||\\vec v|$", "$\\vec F \\cdot \\vec v$", "$\\vec F \\times \\vec v$", "$F^2 v^2$"],
+    answer: 1,
+    explanation: "$P = \\vec F \\cdot \\vec v$ — only the component of force along velocity does work.",
+    tag: "Definition",
+  },
 ]

@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import { Rocket, Zap, ArrowRight, Sparkles } from 'lucide-react'
+import { Rocket, Zap, ArrowRight, Sparkles, Target } from 'lucide-react'
 import { useLocalProgress } from '../hooks/useLocalProgress.js'
 
 const chapters = [
@@ -19,6 +19,14 @@ const chapters = [
     icon: Zap,
     color: 'from-amber-500 to-orange-600',
     topics: 5,
+  },
+  {
+    to: '/motion-plane',
+    title: 'Motion in a Plane',
+    blurb: 'Projectile motion, equation of trajectory, juggling-type relative motion, PYQs.',
+    icon: Target,
+    color: 'from-emerald-500 to-teal-700',
+    topics: 4,
   },
 ]
 
