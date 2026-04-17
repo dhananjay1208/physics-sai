@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import { Rocket, Zap, ArrowRight, Sparkles, Target } from 'lucide-react'
+import { Rocket, Zap, ArrowRight, Sparkles, Target, Thermometer } from 'lucide-react'
 import { useLocalProgress } from '../hooks/useLocalProgress.js'
 
 const chapters = [
@@ -27,6 +27,14 @@ const chapters = [
     icon: Target,
     color: 'from-emerald-500 to-teal-700',
     topics: 4,
+  },
+  {
+    to: '/thermal',
+    title: 'Thermal Properties of Matter',
+    blurb: "Thermometry, calorimetry, specific & latent heat, conduction, Stefan's law, Newton's cooling, radiation & PYQs.",
+    icon: Thermometer,
+    color: 'from-rose-500 to-orange-600',
+    topics: 8,
   },
 ]
 
