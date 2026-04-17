@@ -5,6 +5,7 @@ import Home from './pages/Home.jsx'
 import ChapterLaws from './pages/ChapterLaws.jsx'
 import ChapterWPE from './pages/ChapterWPE.jsx'
 import ChapterMotionPlane from './pages/ChapterMotionPlane.jsx'
+import ChapterThermal from './pages/ChapterThermal.jsx'
 import NotFound from './pages/NotFound.jsx'
 
 import NewtonsLaws from './pages/topics/laws/NewtonsLaws.jsx'
@@ -23,6 +24,15 @@ import ProjectileMotion from './pages/topics/motion/ProjectileMotion.jsx'
 import EquationOfTrajectory from './pages/topics/motion/EquationOfTrajectory.jsx'
 import JugglingQuestions from './pages/topics/motion/JugglingQuestions.jsx'
 import MotionPlanePYQ from './pages/topics/motion/MotionPlanePYQ.jsx'
+
+import Thermometry from './pages/topics/thermal/Thermometry.jsx'
+import Calorimetry from './pages/topics/thermal/Calorimetry.jsx'
+import SpecificLatentHeat from './pages/topics/thermal/SpecificLatentHeat.jsx'
+import StefansLaw from './pages/topics/thermal/StefansLaw.jsx'
+import NewtonsLawCooling from './pages/topics/thermal/NewtonsLawCooling.jsx'
+import ConductionParallelSeries from './pages/topics/thermal/ConductionParallelSeries.jsx'
+import Radiation from './pages/topics/thermal/Radiation.jsx'
+import ThermalPYQ from './pages/topics/thermal/ThermalPYQ.jsx'
 
 export default function App() {
   return (
@@ -51,6 +61,16 @@ export default function App() {
           <Route path="/motion-plane/trajectory" element={<EquationOfTrajectory />} />
           <Route path="/motion-plane/juggling" element={<JugglingQuestions />} />
           <Route path="/motion-plane/pyq" element={<MotionPlanePYQ />} />
+
+          <Route path="/thermal" element={<ChapterThermal />} />
+          <Route path="/thermal/thermometry" element={<Thermometry />} />
+          <Route path="/thermal/calorimetry" element={<Calorimetry />} />
+          <Route path="/thermal/specific-latent-heat" element={<SpecificLatentHeat />} />
+          <Route path="/thermal/stefans-law" element={<StefansLaw />} />
+          <Route path="/thermal/newtons-cooling" element={<NewtonsLawCooling />} />
+          <Route path="/thermal/conduction" element={<ConductionParallelSeries />} />
+          <Route path="/thermal/radiation" element={<Radiation />} />
+          <Route path="/thermal/pyq" element={<ThermalPYQ />} />
 
           <Route path="*" element={<NotFound />} />
         </Routes>
