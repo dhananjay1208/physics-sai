@@ -6,6 +6,7 @@ import ChapterLaws from './pages/ChapterLaws.jsx'
 import ChapterWPE from './pages/ChapterWPE.jsx'
 import ChapterMotionPlane from './pages/ChapterMotionPlane.jsx'
 import ChapterThermal from './pages/ChapterThermal.jsx'
+import ChapterFriction from './pages/ChapterFriction.jsx'
 import NotFound from './pages/NotFound.jsx'
 
 import NewtonsLaws from './pages/topics/laws/NewtonsLaws.jsx'
@@ -33,6 +34,13 @@ import NewtonsLawCooling from './pages/topics/thermal/NewtonsLawCooling.jsx'
 import ConductionParallelSeries from './pages/topics/thermal/ConductionParallelSeries.jsx'
 import Radiation from './pages/topics/thermal/Radiation.jsx'
 import ThermalPYQ from './pages/topics/thermal/ThermalPYQ.jsx'
+
+import StaticFriction from './pages/topics/friction/StaticFriction.jsx'
+import KineticFriction from './pages/topics/friction/KineticFriction.jsx'
+import LimitingFriction from './pages/topics/friction/LimitingFriction.jsx'
+import FreeBodyDiagrams from './pages/topics/friction/FreeBodyDiagrams.jsx'
+import ApplicationsOfFriction from './pages/topics/friction/ApplicationsOfFriction.jsx'
+import FrictionPYQ from './pages/topics/friction/FrictionPYQ.jsx'
 
 export default function App() {
   return (
@@ -71,6 +79,14 @@ export default function App() {
           <Route path="/thermal/conduction" element={<ConductionParallelSeries />} />
           <Route path="/thermal/radiation" element={<Radiation />} />
           <Route path="/thermal/pyq" element={<ThermalPYQ />} />
+
+          <Route path="/friction" element={<ChapterFriction />} />
+          <Route path="/friction/static" element={<StaticFriction />} />
+          <Route path="/friction/kinetic" element={<KineticFriction />} />
+          <Route path="/friction/limiting" element={<LimitingFriction />} />
+          <Route path="/friction/fbd" element={<FreeBodyDiagrams />} />
+          <Route path="/friction/applications" element={<ApplicationsOfFriction />} />
+          <Route path="/friction/pyq" element={<FrictionPYQ />} />
 
           <Route path="*" element={<NotFound />} />
         </Routes>

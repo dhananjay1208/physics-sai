@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import { Rocket, Zap, ArrowRight, Sparkles, Target, Thermometer } from 'lucide-react'
+import { Rocket, Zap, ArrowRight, Sparkles, Target, Thermometer, Hand } from 'lucide-react'
 import { useLocalProgress } from '../hooks/useLocalProgress.js'
 
 const chapters = [
@@ -35,6 +35,14 @@ const chapters = [
     icon: Thermometer,
     color: 'from-rose-500 to-orange-600',
     topics: 8,
+  },
+  {
+    to: '/friction',
+    title: 'Friction in Solids',
+    blurb: 'Static & kinetic friction, limiting friction, angle of repose, free-body diagrams, applications & NEET PYQs.',
+    icon: Hand,
+    color: 'from-indigo-500 to-purple-700',
+    topics: 6,
   },
 ]
 
