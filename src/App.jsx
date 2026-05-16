@@ -7,6 +7,7 @@ import ChapterWPE from './pages/ChapterWPE.jsx'
 import ChapterMotionPlane from './pages/ChapterMotionPlane.jsx'
 import ChapterThermal from './pages/ChapterThermal.jsx'
 import ChapterFriction from './pages/ChapterFriction.jsx'
+import ChapterRayOptics from './pages/ChapterRayOptics.jsx'
 import NotFound from './pages/NotFound.jsx'
 
 import NewtonsLaws from './pages/topics/laws/NewtonsLaws.jsx'
@@ -41,6 +42,15 @@ import LimitingFriction from './pages/topics/friction/LimitingFriction.jsx'
 import FreeBodyDiagrams from './pages/topics/friction/FreeBodyDiagrams.jsx'
 import ApplicationsOfFriction from './pages/topics/friction/ApplicationsOfFriction.jsx'
 import FrictionPYQ from './pages/topics/friction/FrictionPYQ.jsx'
+
+import RefractionOfLight from './pages/topics/rayoptics/RefractionOfLight.jsx'
+import RefractiveIndex from './pages/topics/rayoptics/RefractiveIndex.jsx'
+import SnellsLaw from './pages/topics/rayoptics/SnellsLaw.jsx'
+import NormalShift from './pages/topics/rayoptics/NormalShift.jsx'
+import TotalInternalReflection from './pages/topics/rayoptics/TotalInternalReflection.jsx'
+import Prism from './pages/topics/rayoptics/Prism.jsx'
+import ThinPrism from './pages/topics/rayoptics/ThinPrism.jsx'
+import RayOpticsPYQ from './pages/topics/rayoptics/RayOpticsPYQ.jsx'
 
 export default function App() {
   return (
@@ -87,6 +97,16 @@ export default function App() {
           <Route path="/friction/fbd" element={<FreeBodyDiagrams />} />
           <Route path="/friction/applications" element={<ApplicationsOfFriction />} />
           <Route path="/friction/pyq" element={<FrictionPYQ />} />
+
+          <Route path="/ray-optics" element={<ChapterRayOptics />} />
+          <Route path="/ray-optics/refraction" element={<RefractionOfLight />} />
+          <Route path="/ray-optics/refractive-index" element={<RefractiveIndex />} />
+          <Route path="/ray-optics/snells-law" element={<SnellsLaw />} />
+          <Route path="/ray-optics/normal-shift" element={<NormalShift />} />
+          <Route path="/ray-optics/tir" element={<TotalInternalReflection />} />
+          <Route path="/ray-optics/prism" element={<Prism />} />
+          <Route path="/ray-optics/thin-prism" element={<ThinPrism />} />
+          <Route path="/ray-optics/pyq" element={<RayOpticsPYQ />} />
 
           <Route path="*" element={<NotFound />} />
         </Routes>

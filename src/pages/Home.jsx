@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import { Rocket, Zap, ArrowRight, Sparkles, Target, Thermometer, Hand } from 'lucide-react'
+import { Rocket, Zap, ArrowRight, Sparkles, Target, Thermometer, Hand, Glasses } from 'lucide-react'
 import { useLocalProgress } from '../hooks/useLocalProgress.js'
 
 const chapters = [
@@ -43,6 +43,14 @@ const chapters = [
     icon: Hand,
     color: 'from-indigo-500 to-purple-700',
     topics: 6,
+  },
+  {
+    to: '/ray-optics',
+    title: 'Ray Optics',
+    blurb: 'Refraction, refractive index, Snell\'s law, normal shift, total internal reflection, prisms & NEET PYQs.',
+    icon: Glasses,
+    color: 'from-cyan-500 to-blue-600',
+    topics: 8,
   },
 ]
 
