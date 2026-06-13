@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import { Rocket, Zap, ArrowRight, Sparkles, Target, Thermometer, Hand, Glasses } from 'lucide-react'
+import { Rocket, Zap, ArrowRight, Sparkles, Target, Thermometer, Hand, Glasses, Atom } from 'lucide-react'
 import { useLocalProgress } from '../hooks/useLocalProgress.js'
 
 const chapters = [
@@ -51,6 +51,14 @@ const chapters = [
     icon: Glasses,
     color: 'from-cyan-500 to-blue-600',
     topics: 8,
+  },
+  {
+    to: '/electrostatics',
+    title: 'Electrostatics',
+    blurb: "Properties of charge, Coulomb's law, equilibrium, electric field, work & KE, flux & NEET PYQs.",
+    icon: Atom,
+    color: 'from-fuchsia-500 to-pink-600',
+    topics: 7,
   },
 ]
 

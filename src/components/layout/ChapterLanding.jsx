@@ -11,6 +11,7 @@ export default function ChapterLanding({ title, blurb, accent = 'brand', topics 
     accent === 'rose' ? 'from-rose-500 to-orange-600' :
     accent === 'indigo' ? 'from-indigo-500 to-purple-700' :
     accent === 'cyan' ? 'from-cyan-500 to-blue-600' :
+    accent === 'fuchsia' ? 'from-fuchsia-500 to-pink-600' :
     'from-brand-500 to-brand-700'
 
   return (

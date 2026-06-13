@@ -8,6 +8,7 @@ import ChapterMotionPlane from './pages/ChapterMotionPlane.jsx'
 import ChapterThermal from './pages/ChapterThermal.jsx'
 import ChapterFriction from './pages/ChapterFriction.jsx'
 import ChapterRayOptics from './pages/ChapterRayOptics.jsx'
+import ChapterElectrostatics from './pages/ChapterElectrostatics.jsx'
 import NotFound from './pages/NotFound.jsx'
 
 import NewtonsLaws from './pages/topics/laws/NewtonsLaws.jsx'
@@ -51,6 +52,14 @@ import TotalInternalReflection from './pages/topics/rayoptics/TotalInternalRefle
 import Prism from './pages/topics/rayoptics/Prism.jsx'
 import ThinPrism from './pages/topics/rayoptics/ThinPrism.jsx'
 import RayOpticsPYQ from './pages/topics/rayoptics/RayOpticsPYQ.jsx'
+
+import PropertiesOfCharge from './pages/topics/electrostatics/PropertiesOfCharge.jsx'
+import CoulombsLaw from './pages/topics/electrostatics/CoulombsLaw.jsx'
+import ChargeInEquilibrium from './pages/topics/electrostatics/ChargeInEquilibrium.jsx'
+import ElectricField from './pages/topics/electrostatics/ElectricField.jsx'
+import WorkAndKineticEnergy from './pages/topics/electrostatics/WorkAndKineticEnergy.jsx'
+import ElectricFlux from './pages/topics/electrostatics/ElectricFlux.jsx'
+import ElectrostaticsPYQ from './pages/topics/electrostatics/ElectrostaticsPYQ.jsx'
 
 export default function App() {
   return (
@@ -107,6 +116,15 @@ export default function App() {
           <Route path="/ray-optics/prism" element={<Prism />} />
           <Route path="/ray-optics/thin-prism" element={<ThinPrism />} />
           <Route path="/ray-optics/pyq" element={<RayOpticsPYQ />} />
+
+          <Route path="/electrostatics" element={<ChapterElectrostatics />} />
+          <Route path="/electrostatics/properties" element={<PropertiesOfCharge />} />
+          <Route path="/electrostatics/coulomb" element={<CoulombsLaw />} />
+          <Route path="/electrostatics/equilibrium" element={<ChargeInEquilibrium />} />
+          <Route path="/electrostatics/field" element={<ElectricField />} />
+          <Route path="/electrostatics/work-energy" element={<WorkAndKineticEnergy />} />
+          <Route path="/electrostatics/flux" element={<ElectricFlux />} />
+          <Route path="/electrostatics/pyq" element={<ElectrostaticsPYQ />} />
 
           <Route path="*" element={<NotFound />} />
         </Routes>
