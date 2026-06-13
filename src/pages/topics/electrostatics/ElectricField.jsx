@@ -98,7 +98,7 @@ export default function ElectricField() {
       <Section title="7️⃣ Worked Examples">
         <div className="card p-4 bg-slate-50 border-slate-200">
           <p className="font-semibold text-sm mb-1">Example 1 — Field of a point charge</p>
-          <p className="text-sm">Find the magnitude of the field at 30 cm from a charge of <F>+5\,\mu\text{C}</F>.</p>
+          <p className="text-sm">Find the magnitude of the field at 30 cm from a charge of <F>{`+5\\,\\mu\\text{C}`}</F>.</p>
           <FBlock>{`E = \\frac{9\\times10^9\\times5\\times10^{-6}}{(0.30)^2} = \\frac{45\\times10^3}{0.09} = 5\\times10^5\\ \\text{N/C}`}</FBlock>
         </div>
         <div className="card p-4 bg-slate-50 border-slate-200 mt-3">

@@ -45,7 +45,7 @@ export default function WorkAndKineticEnergy() {
         </p>
         <FBlock>{`\\text{KE} = qV`}</FBlock>
         <p className="text-sm leading-relaxed">
-          This is the cleanest way to find an accelerated charge's KE — even when the field is non-uniform, you only need to know <F>V</F>. The unit <b>electronvolt</b> follows directly: one electron accelerated through 1 V gains <F>1\text{eV} = 1.6\times10^{'{-19}'}</F> J of kinetic energy.
+          This is the cleanest way to find an accelerated charge's KE — even when the field is non-uniform, you only need to know <F>V</F>. The unit <b>electronvolt</b> follows directly: one electron accelerated through 1 V gains <F>{`1\\,\\text{eV} = 1.6\\times10^{-19}`}</F> J of kinetic energy.
         </p>
       </Section>
 

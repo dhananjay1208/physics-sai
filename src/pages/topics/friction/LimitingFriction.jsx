@@ -33,7 +33,7 @@ export default function LimitingFriction() {
         </p>
         <FBlock>{`m g \\sin\\theta_r = \\mu_s\\,m g \\cos\\theta_r \\quad\\Rightarrow\\quad \\tan\\theta_r = \\mu_s`}</FBlock>
         <Callout kind="tip">
-          Angle of friction = Angle of repose. Both satisfy <F>\tan(\text{angle}) = \mu_s</F>. NEET often asks about one but gives you the other — they're numerically identical for the same surface pair.
+          Angle of friction = Angle of repose. Both satisfy <F>{`\\tan(\\text{angle}) = \\mu_s`}</F>. NEET often asks about one but gives you the other — they're numerically identical for the same surface pair.
         </Callout>
       </Section>
 

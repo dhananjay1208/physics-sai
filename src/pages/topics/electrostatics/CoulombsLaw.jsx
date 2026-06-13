@@ -70,7 +70,7 @@ export default function CoulombsLaw() {
       <Section title="7️⃣ Worked Examples">
         <div className="card p-4 bg-slate-50 border-slate-200">
           <p className="font-semibold text-sm mb-1">Example 1 — Force on two µC charges</p>
-          <p className="text-sm">Two point charges <F>+2\,\mu\text{C}</F> and <F>+3\,\mu\text{C}</F> are 30 cm apart in vacuum. Find the force.</p>
+          <p className="text-sm">Two point charges <F>{`+2\\,\\mu\\text{C}`}</F> and <F>{`+3\\,\\mu\\text{C}`}</F> are 30 cm apart in vacuum. Find the force.</p>
           <FBlock>{`F = \\frac{9\\times10^9\\cdot(2\\times10^{-6})(3\\times10^{-6})}{(0.30)^2} = \\frac{54\\times10^{-3}}{0.09} = 0.6\\ \\text{N}`}</FBlock>
         </div>
         <div className="card p-4 bg-slate-50 border-slate-200 mt-3">
